@@ -6,7 +6,7 @@ docker run -d \
            -p 4900:4900 \
            -p 4993:4993 \
            -p 9000-9100:9000-9100 \
-           ihuangqi/lanproxy-server-docker
+           ihuangqi/lanproxy-server
 ```
 
 The usable port is 9000-9100
