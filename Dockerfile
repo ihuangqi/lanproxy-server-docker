@@ -25,6 +25,6 @@ WORKDIR /lanproxy-server
 
 COPY --from=maven /lanproxy/lanproxy-server ./
 
-EXPOSE 8090
+EXPOSE 8090 4900 4993
 
 CMD ["sh", "-c", "sh bin/startup.sh && tail -f logs/server.log"]
